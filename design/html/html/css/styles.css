@@ -1,0 +1,206 @@
+@charset "utf-8";
+@import url("fonts.css");
+/*--Placeholder  --*/
+*::-webkit-input-placeholder {
+    opacity: 1;    
+}
+*:-moz-placeholder { /* Firefox 18- */
+    opacity: 1;    
+}
+*::-moz-placeholder {  /* Firefox 19+ */
+    opacity: 1;    
+}
+/*--end Placeholder  --*/
+
+
+body{
+    background: #fff;
+    font-family: 'arial';
+}
+#container{
+    max-width:100%;
+    width:100%;
+    padding:0;
+}
+#header .top-head,
+#header .main-nav .menu,
+#wrapper,
+#footer-wrapper{
+    max-width: 995px;
+    margin: 0 auto;
+    padding:0 25px;
+    border:none;
+}
+#wrapper{
+    padding-top:25px;
+}
+/*----------HEADER----------*/
+#logo{
+    padding: 10px 0;
+}
+.blk-top-head{
+    margin: 0;
+    padding:20px 0;
+}
+#header{
+    background: url("../images/head-bgr.png") no-repeat scroll 75% top #FFE700 !important;
+}
+/*menu*/
+#header .main-nav{
+    background: #ffc600!important;
+    margin: 0;
+}
+#header .menu,
+#header .menu li,
+#header .menu li a{
+    background: none!important;
+    text-shadow: none!important;
+    line-height: 15px !important;
+}
+#header .menu li a{
+    font-size:12px;
+    white-space:pre-line;
+    color: #2a2a2a;
+    font-family: 'AvantGarde';
+    border: none;    
+    text-align: center;
+    padding: 0 15px;
+    text-transform: uppercase;
+    
+    display: table-cell;
+    vertical-align: middle;
+}
+#header .menu li{
+    line-height: 45px;
+    height: 45px;
+    background: url("../images/dot-menu.png") no-repeat right center transparent!important;
+}
+#header .menu li:first-child a{
+    padding-left: 0;
+    width:85px;
+}
+#header .menu li:last-child a{
+    width:125px;
+    padding-right: 0;
+}
+#header .menu li:last-child {
+    background-image: none!important;
+}
+#header .menu li:nth-child(3) a{
+    width:100px;
+}
+#header .menu li:nth-child(6) a{
+    width:135px;
+}
+#header .menu li:nth-child(7) a{
+    width:100px;
+}
+/*end menu*/
+/*----------END HEADER----------*/
+/*------MAIN CONTENT------*/
+/*home*/
+.home-left{
+    padding-top: 10px;
+}
+.home-left h2,
+.home-left h2 a,
+.home-right h2{
+    font-size: 20px;
+    color: #ffb900;
+    text-transform: uppercase;
+}
+.home-left .grid-right input[type="text"]{
+    margin-top: 10px;
+    border: none!important;
+    box-shadow: none!important;
+    min-width: 100%;
+    background: #eeeeee;
+    line-height: 35px;
+    height: 35px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.home-left .grid-right input[type="submit"]{
+    background: none;
+    border: none;
+    color: #FFB900;
+    display: block;
+    float: right;
+    font-size: 16px;
+    font-weight: normal;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-family: 'AvantGarde';
+} 
+.home-left form{
+    box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.2);
+    padding: 10px 0 10px 10px;
+    position: relative;
+    margin: 25px 0 0 0;
+}
+.home-left form .f-img{
+    left: 8px;
+    position: absolute;
+    top: -8px;
+}
+.home-left form h2{
+    height: 50px;
+    margin-top: 0;
+    padding-left: 70px;
+    width: 220px;
+    font-size: 16px;
+    font-family: 'AvantGarde';
+}
+.home-left form .grid{
+    padding:0 25px;
+}
+.blk-link-home h2{
+    padding-left: 15px;
+    background: url("../images/bgr-title.png") no-repeat left center transparent;
+    margin: 0 0 25px;
+    font-family: 'AvantGarde';
+}
+.home-right h2{
+    margin: 0 0 5px 0;
+}
+.home-right h2 span{
+    color: #515151;
+}
+.home-right {
+    color: #000;
+    font-size: 14px;
+    padding-top: 12px;
+}
+.home-right p{
+    text-align: justify;
+}
+/*end home*/
+/*------END MAIN CONTENT------*/
+/*------FOOTER------*/
+#footer{
+    width:100%;
+    background: #525252;
+    color: #fff;
+    margin: 0 0 45px 0;
+    padding:0;
+    max-width: 100%;
+}
+.copyright{
+    padding: 15px 0;
+    position: relative;
+}
+.copyright img{
+    position: absolute;
+    top:-45px;
+    left: 50%;
+}
+.copyright span{
+    float: right;
+}
+.copyright p{
+    margin: 0;
+}
+#footer a{
+    color: #fff!important;
+}
+/*------END FOOTER------*/
