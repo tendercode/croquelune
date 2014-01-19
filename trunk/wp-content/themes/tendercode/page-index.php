@@ -32,9 +32,9 @@ get_header();
                     reseau-enfance@nyon.ch
                 </div>
                 <div class="grid-right col-460 fit">
-                    <input type="text" placeholder="TARIFS Enfants de 0 à 4 ans" />
-                    <input type="text" placeholder="TARIFS Enfants de 4 à 10 ans" />
-                    <input type="submit" value="+ d’infos ici !" />
+                    <label>TARIFS Enfants de 0 à 4 ans</label>
+                    <label>TARIFS Enfants de 4 à 10 ans</label>
+                    <span>+ d’infos ici !</span>
                 </div>
                 <div class="f-img"><img src="<?php echo get_template_directory_uri()?>/images/bear.png" /></div>
             </form>

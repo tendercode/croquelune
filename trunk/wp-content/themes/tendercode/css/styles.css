@@ -63,7 +63,7 @@ body{
     font-size:12px;
     white-space:pre-line;
     color: #2a2a2a;
-    font-family: 'AvantGard-Bold';
+    font-family: 'AvantGarde';
     border: none;    
     text-align: center;
     padding: 0 13px;
@@ -115,18 +115,18 @@ body{
     color: #ffb900;
     text-transform: uppercase;
 }
-.home-left .grid-right input[type="text"]{
+.home-left .grid-right label{
     margin-top: 10px;
     border: none!important;
     box-shadow: none!important;
-    min-width: 100%;
+    min-width: 97%;
     background: #eeeeee;
     line-height: 35px;
     height: 35px;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0 0 0 3%;
+    font-weight: normal;
 }
-.home-left .grid-right input[type="submit"]{
+.home-left .grid-right span{
     background: none;
     border: none;
     color: #FFB900;
@@ -136,7 +136,8 @@ body{
     font-weight: normal;
     padding-right: 20px;
     text-transform: uppercase;
-    font-family: 'AvantGard-Bold';
+    font-family: 'AvantGarde';
+    line-height: 30px;
 } 
 .home-left form{
     box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.2);
@@ -155,7 +156,7 @@ body{
     padding-left: 70px;
     width: 220px;
     font-size: 16px;
-    font-family: 'AvantGard-Bold';
+    font-family: 'AvantGarde';
 }
 .home-left form .grid{
     padding:0 25px;
@@ -165,7 +166,7 @@ body{
     padding-left: 15px;
     background: url("../images/bgr-title.png") no-repeat left center transparent;
     margin: 0 0 25px;
-    font-family: 'AvantGard-Bold';
+    font-family: 'AvantGarde';
 }
 .blk-link-home h2.lk{
     padding-left: 0;
@@ -251,7 +252,7 @@ body{
 h3.sub-title{
     font-size: 14px;
     color: #2f2f2f;
-    font-family: 'AvantGard-Bold';
+    font-family: 'AvantGarde';
     margin-bottom: 0;
 }
 h1.title{
@@ -266,7 +267,7 @@ h1.title a{
     letter-spacing: -1px;
     color: #ffb900;
     text-transform: uppercase;
-    font-family: 'AvantGard-Bold';
+    font-family: 'AvantGarde';
 }
 div p:last-child{
     margin-bottom: 0;
@@ -293,7 +294,7 @@ div p:last-child{
 .char-left-ctn h2{
     font-size: 20px;
     color: #ffb900;
-    font-family: 'AvantGard-Bold';
+    font-family: 'AvantGarde';
 }
 .char-left-ctn p{
     font-size:12px;
@@ -319,7 +320,7 @@ div p:last-child{
     color: #31859c;
     text-align: center;
     font-size: 10px;
-    font-family: 'AvantGard-Bold';
+    font-family: 'AvantGarde';
     font-weight: bold;
     text-transform: uppercase;
     line-height: 176px;
@@ -386,7 +387,7 @@ div p:last-child{
 .ctn-char h4{
     margin: 0 0 20px;
     font-size:12px;
-    font-family: 'AvantGard-Bold';
+    font-family: 'AvantGarde';
     color: #000;
 }
 .ctn-char p{
