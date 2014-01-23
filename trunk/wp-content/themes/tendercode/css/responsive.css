@@ -160,6 +160,9 @@
         width: 100%!important;
         float: none!important;
     }
+    .contact-p form ul li{
+        width:100%!important;
+    }
 }
 /*charte page*/
 @media (min-width:760px)  and (max-width: 980px) {
