@@ -156,6 +156,10 @@
     .contact-p{
         width: 100%;
     }
+    .wpfilebase-file-default{
+        width: 100%!important;
+        float: none!important;
+    }
 }
 /*charte page*/
 @media (min-width:760px)  and (max-width: 980px) {

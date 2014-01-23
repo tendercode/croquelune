@@ -14,8 +14,8 @@
             <div id="footer-wrapper" class="clearfix">
                  <div class="grid col-940 clearfix">
                     <div class="copyright clearfix">
-                        <span>Création du site par <a href="#">ENOXONE</a></span>
-                        <p>Copyright © 2013 - <a href="#">Croquelune</a> - Plan du site - <a href="<?php echo get_page_link('64'); ?>">Mentions Légales</a></p>
+                        <span>Création du site par <a target="_blank" href="http://www.enoxone.ch">ENOXONE</a></span>
+                        <p>Copyright © 2013 - <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Croquelune</a> - <a href="<?php echo get_page_link('91'); ?>">Plan du site</a> - <a href="<?php echo get_page_link('64'); ?>">Mentions Légales</a></p>
                         <p>Croquelune, rue de la Gare 35 bis, 1260 Nyon • info@croquelune.ch • Tél. : 022 - 994 40 60</p>
                         <img src="<?php echo get_template_directory_uri();?>/images/moon.png" />
                     </div>

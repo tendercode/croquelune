@@ -731,4 +731,36 @@ h5.n-small{
 .contact-p .gform_wrapper .validation_message{
     color: red!important;
 }
+.contact-p .gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label, 
+.contact-p .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container{
+    margin: 0!important;
+}
+.contact-p .validation_message{
+    text-transform: none!important;
+    line-height: 15px!important;
+}
 /*end page contact gravityform*/
+h2.wsp-pages-title{
+    margin-bottom: 15px;
+}
+ul.wsp-pages-list{
+    padding-left: 15px;
+}
+/*page site maps*/
+.wpfilebase-file-default .filetitle a{
+    font-family: 'arial'!important;
+    font-size: 14px!important;
+    font-weight: bold!important;
+    padding-left: 25px!important;
+    line-height: 20px!important;
+}
+.wpfilebase-file-default{
+    padding: 0!important;
+    width: 33.3333%!important;
+    float: left!important;
+    margin-bottom: 10px!important;
+}
+.wpfilebase-file-default .filetitle{
+    height: auto!important;
+}
+/*page end site maps*/
