@@ -37,19 +37,43 @@
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-migrate.min.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/responsive-modernizr.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/responsive-scripts.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
+    
+    <script>
+        function initialize()
+        {
+            var mapProp = {
+                center:new google.maps.LatLng(46.388182,6.234062),
+                zoom:12,
+                mapTypeId:google.maps.MapTypeId.ROADMAP,
+                disableDefaultUI:true
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            
+                                    
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(46.388182,6.234062),
+                map: map
+            });           
+                         
+        }    
+        google.maps.event.addDomListener(window, 'load', initialize);
+        
+    </script>   
+
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-	<div id="container">
-        <div id="header" class="clearfix">
+        <header id="header" class="clearfix">
             <div class="top-head">
                 <div id="logo">
-                    <a href="index.html"><img alt="Croquelune" src="<?php echo get_template_directory_uri();?>/images/logo.png" /></a>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img alt="Croquelune" src="<?php echo get_template_directory_uri();?>/images/logo.png" /></a>
                 </div><!-- end of #logo -->
             </div>
-            <div class="main-nav">
+            <nav class="main-nav">
                 <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'menu' ) ); ?>
-            </div>
-        </div>
-        <div id="wrapper" class="clearfix">
+            </nav>
+        </header>
+        <section id="wrapper" class="clearfix">

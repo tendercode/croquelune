@@ -17,11 +17,6 @@ body{
     background: #fff;
     font-family: 'arial';
 }
-#container{
-    max-width:100%;
-    width:100%;
-    padding:0;
-}
 #header .top-head,
 #header .main-nav .menu,
 #wrapper,
@@ -33,7 +28,11 @@ body{
 }
 #wrapper{
     padding-top:25px;
+    padding-bottom: 25px;
     min-height: 335px;
+}
+#wrapper article{
+    margin-bottom: 0;
 }
 /*----------HEADER----------*/
 #logo{
@@ -66,7 +65,7 @@ body{
     font-family: 'AvantGarde';
     border: none;    
     text-align: center;
-    padding: 0 13px;
+    padding: 0 15px;
     text-transform: uppercase;
     
     display: table-cell;
@@ -92,7 +91,7 @@ body{
     width:115px;
 }
 #header .menu li:nth-child(6) a{
-    width:152px;
+    width:142px;
 }
 #header .menu li:nth-child(7) a{
     width:100px;
@@ -101,9 +100,6 @@ body{
 /*----------END HEADER----------*/
 /*------MAIN CONTENT------*/
 /*home*/
-.home-left{
-    padding-top: 10px;
-}
 .blk-link-home h1,
 .blk-link-home h1 a,
 .blk-link-home h2,
@@ -111,7 +107,7 @@ body{
 .home-left h2,
 .home-left h2 a,
 .home-right h2{
-    font-size: 20px;
+    font-size: 18px;
     color: #ffb900;
     text-transform: uppercase;
 }
@@ -125,6 +121,7 @@ body{
     height: 35px;
     padding: 0 0 0 3%;
     font-weight: normal;
+    text-transform: uppercase;
 }
 .home-left .grid-right span{
     background: none;
@@ -144,6 +141,7 @@ body{
     padding: 10px 0 10px 10px;
     position: relative;
     margin: 25px 0 0 0;
+    color: #000;
 }
 .home-left form .f-img{
     left: 8px;
@@ -154,41 +152,65 @@ body{
     height: 50px;
     margin-top: 0;
     padding-left: 70px;
+    line-height: 20px;
     width: 220px;
     font-size: 16px;
     font-family: 'AvantGarde';
+    margin-bottom: 5px;
+    /*
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+    filter: dropshadow(color=rgba(0,0,0,0.15),offX=0,offY=1);
+    */
 }
 .home-left form .grid{
-    padding:0 25px;
+    padding:0 15px;
 }
 .blk-link-home h1,
 .blk-link-home h2{
     padding-left: 15px;
     background: url("../images/bgr-title.png") no-repeat left center transparent;
-    margin: 0 0 25px;
+    margin: 0 0 30px;
     font-family: 'AvantGarde';
+    color:#FFB900;
+}
+.blk-link-home.infra-p h1{
+    margin-bottom: 20px;
 }
 .blk-link-home h2.lk{
     padding-left: 0;
     background: none;
-    margin-top: 0;
+    margin-top: -10px;
 }
 .home-right h2{
-    margin: 0 0 5px 0;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0 0 5px;
+    letter-spacing: -1px;
 }
 .home-right h2 span{
     color: #515151;
 }
 .home-right h3{
     font-size:14px;
+    margin:20px 0;
+    color:#000;
 }
 .home-right {
     color: #000;
     font-size: 14px;
-    padding-top: 12px;
+}
+.home-right ul{
+    margin: 0;
+    padding-left: 12px;
+}
+.home-right ul li{
+    margin-bottom: 15px;
 }
 .home-right p{
+    margin: 8px 0;
+    line-height: 18px;
     text-align: justify;
+    font-size: 12px;
 }
 /*end home*/
 /*------END MAIN CONTENT------*/
@@ -200,6 +222,8 @@ body{
     margin: 0 0 45px 0;
     padding:0;
     max-width: 100%;
+    font-size:11px;
+    font-weight: bold;
 }
 .copyright{
     padding: 15px 0;
@@ -218,6 +242,7 @@ body{
 }
 #footer a{
     color: #fff!important;
+    font-weight: bold;
 }
 /*------END FOOTER------*/
 /*-----PAGE -------*/
@@ -259,10 +284,11 @@ h1.title{
     background: url("../images/bgr-title.png") no-repeat left 3px transparent;
     padding-left: 15px;
 }
+h2.title,
+h2.title a,
 h1.title,
 h1.title a{
-    margin-bottom: 0;
-    margin-top: 15px;
+    margin: 0;
     font-size: 18px;
     letter-spacing: -1px;
     color: #ffb900;
@@ -473,13 +499,16 @@ div p:last-child{
     line-height: 15px;
     margin-bottom: 10px;
 }
-.btm-cuisine h5{
+.btm-cuisine h5,
+.btm-cuisine ul{
+    color: #FFB900;
+    font-weight: normal;
     margin-bottom: 0;
 }
 .btm-cuisine ul{
     list-style: none;
 }
-.btm-cuis{
+.btm-cuis p{
     text-align: right;
     float: right;
     font-size: 12px;
@@ -490,6 +519,7 @@ div p:last-child{
 /*fondation*/
 .fondation-p{
     width:45.2211055276%;
+    padding-top: 5px;
 }
 .fondation-p span.btm-fondation{
     text-align: center;
@@ -510,8 +540,8 @@ div p:last-child{
     color:#000;
     font-size:14px;
 }
-h1.title a span,
-h1.title a span{
+h2.title  span,
+h1.title span{
     color:#515151!important;
 }
 .fondation-p  span{
@@ -524,7 +554,7 @@ h1.title a span{
     padding: 10px 10px 10px 90px;
     position: relative;
     text-align: justify;
-    width: 53%;
+    width: 51%;
 }
 .fondationform .f-img{
     position: absolute;
@@ -600,3 +630,45 @@ h3.text-nml{
     margin-top: 0;
 }
 /*-----END PAGE -------*/
+/*tung*/
+.page-id-21 header h1,
+.page-id-13 header h1{
+    display: none;
+}
+.blk-link-home .info,
+.blk-link-home .icon{
+    display: none;
+}
+#googleMap{
+    border: 4px solid #fff;
+    box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2)!important;
+}
+.gmnoprint,
+.gm-style-cc,
+.gmnoprint{
+    display: none;
+}
+h5.n-small{
+    margin-bottom: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: -20px;
+}
+.filetitle{
+    margin: 0!important;
+}
+.filetitle a{
+    background: url("../images/dot-list.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #9F1600;
+    font-family: 'arial';
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+.wpfilebase-file-default{
+    margin: 0!important;
+    border-radius: 0!important;
+    background: none!important;
+    border: none!important;
+    box-shadow: 0 0 0!important;
+}

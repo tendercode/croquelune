@@ -13,20 +13,20 @@
  */
 get_header();
 ?>
-    <div class="grid col-940 blk-link-home">
+    <article class="grid col-940 blk-link-home infra-p">
         <?php while( have_posts()) : the_post();?>
         
-        <h1><a href="#"><?php the_title();?></a></h1>
+        <header><h1><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h1></header>
             <div class="left-divers grid col-300 fit">
                 <p><?php the_content();?></p>
             </div>
-            <div class="right-divers grid col-540">
+            <div class="right-divers grid col-540 fit">
                 <?php if(has_post_thumbnail()):?>
                     <?php the_post_thumbnail('full');?>
                 <?php endif;?>
             </div>
         
         <?php endwhile;?>
-    </div>
+    </article>
 
 <?php get_footer(); ?>

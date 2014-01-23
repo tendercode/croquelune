@@ -14,11 +14,11 @@
 get_header();
 ?>
 
-<div class="grid col-940">
-    <div class="home-left grid col-540">
+<article class="grid col-940">
+    <section class="home-left grid col-540">
         <div class="col-940 blk-link-home">
-            <h2><a href="#">dernières nouvelles</a></h2>
-            <h2><a href="#">Menus de la semaine</a></h2>
+            <h2>dernières nouvelles</h2>
+            <h2>Menus de la semaine</h2>
         </div>
         <div class="col-940">
             <form class="grid clearfix">
@@ -39,11 +39,11 @@ get_header();
                 <div class="f-img"><img src="<?php echo get_template_directory_uri()?>/images/bear.png" /></div>
             </form>
         </div>
-    </div>
-    <div class="home-right grid-right col-300 fit">
+    </section>
+    <aside class="home-right grid-right col-300 fit">
        <?php dynamic_sidebar( 'sidebar-home' ); ?>
-    </div>
-</div>
+    </aside>
+</article>
 
 
 <?php get_footer(); ?>
