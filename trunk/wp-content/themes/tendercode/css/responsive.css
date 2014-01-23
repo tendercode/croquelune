@@ -145,6 +145,17 @@
     .second-title{
         display: none;
     }
+    .contact-p  input[type="submit"]{
+        margin-top: 0 !important;
+        width: 100%;
+    }
+    .contact-p form ul li#field_2_9{
+        margin-bottom: 10px;
+        line-height: 15px;
+    }
+    .contact-p{
+        width: 100%;
+    }
 }
 /*charte page*/
 @media (min-width:760px)  and (max-width: 980px) {

@@ -642,6 +642,9 @@ h3.text-nml{
 #googleMap{
     border: 4px solid #fff;
     box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2)!important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 .gmnoprint,
 .gm-style-cc,
@@ -672,3 +675,60 @@ h5.n-small{
     border: none!important;
     box-shadow: 0 0 0!important;
 }
+/*page contact gravityform*/
+.contact-p .gform_wrapper,
+.contact-p form,
+.contact-p .gform_wrapper .gform_footer,
+.contact-p  input[type="submit"] {
+    margin: 0!important;
+    padding: 0!important;
+}
+.contact-p .gfield_label{
+    display: none!important;
+}
+.contact-p .gform_wrapper li.gfield.gfield_error.gfield_contains_required,
+.contact-p .gform_wrapper .top_label .gfield_error,
+.contact-p form ul li{
+    width:47.5%;
+    float: left;
+    padding: 0!important;
+    clear: none!important;
+}
+.contact-p form ul li#field_2_7,
+.contact-p form ul li#field_2_5{
+    float: right;
+}
+.contact-p form ul li#field_2_9,
+.contact-p form ul li#field_2_8,
+.contact-p form ul li#field_2_3,
+.contact-p form ul li#field_2_3 textarea {
+    width:100%;
+}
+.contact-p form ul li#field_2_8{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.contact-p form ul li#field_2_9{
+    width:100%;
+}
+.contact-p  input[type="submit"]{
+    margin-top: -72px !important;
+    width: 102px;
+}
+.contact-p .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium{
+    min-width: 100%;
+}
+.contact-p .gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning{
+    background: none!important;
+    border: none!important;
+}
+.contact-p .gfield.gfield_error.gfield_contains_required,
+.contact-p .gform_wrapper .top_label .gfield_description.validation_message, 
+.contact-p .gform_wrapper .gfield_description.validation_message{
+    margin: 0!important;
+    padding: 0!important;
+}
+.contact-p .gform_wrapper .validation_message{
+    color: red!important;
+}
+/*end page contact gravityform*/
