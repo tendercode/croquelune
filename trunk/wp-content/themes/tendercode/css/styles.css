@@ -704,6 +704,10 @@ h5.n-small{
 .contact-p form ul li#field_2_3 textarea {
     width:100%;
 }
+.contact-p form ul li  input[type="text"],
+.contact-p form ul li textarea {
+    font-size: 11px;
+}
 .contact-p form ul li#field_2_8{
     margin-bottom: 20px;
     margin-top: 0;
