@@ -12,7 +12,7 @@
     .left-divers{
         width:240px;
     }
-    .right-divers img{
+    .right-divers .wp-struct{
         margin-top: -30px;
     }
     .tel-second{
@@ -33,9 +33,6 @@
     }
     .home-right h2.title{
         padding-right: 25px;
-    }
-    .right-divers img{
-        margin-right: -30px;
     }
     
  }
@@ -200,5 +197,15 @@
         padding: 20px;
         background: #ffc900;
     }
-    
+    .ctn-struct .poppup{
+        width: auto;
+    }
+    .menu-struct .poppup17{
+        left: auto;
+        right: 15px;
+    }
+    .ctn-struct .poppup img {
+        margin: 0;
+        padding-top: 20px;
+    }
 }

@@ -744,6 +744,7 @@ h5.n-small{
     text-transform: none!important;
     line-height: 15px!important;
 }
+
 /*end page contact gravityform*/
 h2.wsp-pages-title{
     margin-bottom: 15px;
@@ -769,3 +770,190 @@ ul.wsp-pages-list{
     height: auto!important;
 }
 /*page end site maps*/
+/* page infrastructure*/
+/*reveal*/ 
+.reveal-modal-bg { 
+	position: fixed; 
+	height: 100%;
+	width: 100%;
+	background: #000;
+	background: rgba(0,0,0,.8);
+	z-index: 100;
+	display: none;
+	top: 0;
+	left: 0; 
+	}
+
+.reveal-modal {
+	visibility: hidden;
+	top: 0!important; 
+	left: 0!important;
+    
+	margin-left: 0;
+	width: 100%;    
+	background: #fff;
+	position: absolute;
+	z-index: 101;
+	padding: 25px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	}
+	
+.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+
+.reveal-modal .close-reveal-modal {
+	font-size: 22px;
+	line-height: .5;
+	position: absolute;
+	top: 8px;
+	right: 11px;
+	color: #aaa;
+	text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+	font-weight: bold;
+	cursor: pointer;
+	} 
+/*end reveal*/  
+.wp-struct{
+    position: relative;
+    max-width: 781px;
+}
+.menu-struct a{
+    display: block;
+    height: 9.00900900901%;
+    left: 19.3075898802%;
+    position: absolute;
+    top: 13.5135135135%;
+    width: 23.9680426099%;
+    color: transparent;
+}
+.menu-struct .poppup2{
+    left: 13.9813581891%;
+    top: 24.024024024%;
+    width: 33.2889480692%;
+    height: 8.10810810811%;
+}
+.menu-struct .poppup3{
+    height:19.5195195195%;
+    left: 13.3155792277%;
+    top: 34.5345345345%;
+    width: 13.3155792277%;
+}
+.menu-struct .poppup4{
+    height: 18.018018018%;
+    left: 27.2969374168%;
+    top: 34.5345345345%;
+    width: 10.2529960053%;
+}
+.menu-struct .poppup5{
+    height: 18.018018018%;
+    left: 38.6151797603%;
+    top: 34.5345345345%;
+    width: 10.6524633822%;
+}
+.menu-struct .poppup6{
+    height: 27.027027027%;
+    left: 12.7829560586%;
+    top: 57.0570570571%;
+    width: 3.99467376831%;
+}
+.menu-struct .poppup7{
+    height: 27.027027027%;
+    left: 17.310252996%;
+    top: 57.0570570571%;
+    width: 10.6524633822%;
+}
+.menu-struct .poppup8{
+    height: 28.5285285285%;
+    left: 29.2942743009%;
+    top: 57.0570570571%;
+    width: 10.2529960053%;
+}
+.menu-struct .poppup9{
+    height: 28.5285285285%;
+    left: 41.2782956059%;
+    top: 55.5555555556%;
+    width: 10.2529960053%;
+}
+.menu-struct .poppup10{
+    left: 3.99467376831%;
+    top: 87.0870870871%;
+    width: 8.655126498%;
+}
+.menu-struct .poppup11{
+    left: 3.99467376831%;
+    top: 87.0870870871%;
+    width: 8.655126498%;
+}
+.menu-struct .poppup12{
+    height: 7.50750750751%;
+    left: 14.6471371505%;
+    top: 87.0870870871%;
+    width: 31.9573901465%;
+}
+.menu-struct .poppup13{
+    height: 10.5105105105%;
+    left: 54.5938748336%;
+    top: 46.8468468468%;
+    width: 9.98668442077%;
+}
+.menu-struct .poppup14{
+    height: 12.9129129129%;
+    left: 53.9280958722%;
+    top: 59.7597597598%;
+    width: 11.3182423435%;
+}
+.menu-struct .poppup15{
+    height: 12.012012012%;
+    left: 53.9280958722%;
+    top: 75.0750750751%;
+    width: 11.3182423435%;
+}
+.menu-struct .poppup16{
+    height: 8.70870870871%;
+    left: 75.6324900133%;
+    top: 61.5615615616%;
+    width: 14.6471371505%;
+}
+.menu-struct .poppup17{
+    height: 8.70870870871%;
+    left: 93.0758988016%;
+    top: 60.0600600601%;
+    width: 7.32356857523%;
+}
+.menu-struct .poppup18{
+    height: 21.021021021%;
+    left: 69.9067909454%;
+    top: 72.6726726727%;
+    width: 7.32356857523%;
+}
+.menu-struct .poppup19{
+    height: 21.021021021%;
+    left: 77.6298268975%;
+    top: 72.6726726727%;
+    width: 7.32356857523%;
+}
+.menu-struct .poppup20{
+    height: 21.021021021%;
+    left: 85.4860186418%;
+    top: 72.6726726727%;
+    width: 7.32356857523%;
+}
+.ctn-struct .poppup{
+    max-width: 450px!important;
+    color:#000;
+}
+.ctn-struct .poppup p{
+    margin-bottom: 15px;
+}
+.ctn-struct .poppup img{
+    margin:0;
+}
+
+/* end page infrastructure*/
